@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 176" width="1200" height="176" role="img" aria-labelledby="title description">
+<title id="title">Four areas of expertise: intelligence, engineering, delivery, and experience</title>
+<desc id="description">Original animated interface-inspired icons for agents and LLMs, full-stack engineering, cloud delivery, and design.</desc>
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A192B"/><stop offset="1" stop-color="#10283B"/></linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58E2B8"/><stop offset="1" stop-color="#A9FFEA"/></linearGradient>
+  <style>
+    .wire{stroke:#76EACD;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+    .dim{fill:#7899A9;font-family:Arial,Helvetica,sans-serif;font-size:12;letter-spacing:2px}
+    .main{fill:#EFF9FF;font-family:Arial,Helvetica,sans-serif;font-size:19;font-weight:bold}
+    .soft{fill:#91AAB9;font-family:Arial,Helvetica,sans-serif;font-size:12}
+    .drift{animation:floaty 4s ease-in-out infinite}
+    .spark{animation:blink 2.5s ease-in-out infinite}
+    .flow{stroke-dasharray:3 8;animation:flow 8s linear infinite}
+    @keyframes floaty {0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+    @keyframes blink {0%,100%{opacity:.5}50%{opacity:1}}
+    @keyframes flow {to{stroke-dashoffset:-88}}
+    @media(prefers-reduced-motion:reduce){.drift,.spark,.flow{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="176" rx="17" fill="#08111F"/>
+<g>
+ <rect x="9" y="9" width="284" height="158" rx="14" fill="url(#panel)" stroke="#234759"/>
+ <rect x="308" y="9" width="284" height="158" rx="14" fill="url(#panel)" stroke="#234759"/>
+ <rect x="607" y="9" width="284" height="158" rx="14" fill="url(#panel)" stroke="#234759"/>
+ <rect x="906" y="9" width="285" height="158" rx="14" fill="url(#panel)" stroke="#234759"/>
+</g>
+<g transform="translate(35 33)">
+ <g class="drift">
+ <path d="M22 43L53 20L84 43L53 66Z" class="wire" opacity=".6"/>
+ <path d="M22 43L53 43L84 43M53 20V66" class="wire" opacity=".3"/>
+ <circle cx="22" cy="43" r="7" fill="#F59B62"/><circle cx="84" cy="43" r="7" fill="#6DE9C5"/><circle cx="53" cy="20" r="7" fill="#6DE9C5"/><circle cx="53" cy="66" r="7" fill="#6DE9C5"/><circle cx="53" cy="43" r="12" fill="#113B3C" stroke="#A4FCE1" stroke-width="2"/>
+ </g>
+ <text x="109" y="26" class="dim">01 / THINK</text><text x="109" y="54" class="main">Intelligence</text><text x="109" y="77" class="soft">LLMs + Agents</text>
+</g>
+<g transform="translate(334 33)">
+ <g class="drift" style="animation-delay:-1s"><rect x="5" y="7" width="86" height="73" rx="11" fill="#112E3E" stroke="#6DE9C5" stroke-width="2"/><circle cx="18" cy="19" r="3" fill="#F59B62"/><circle cx="28" cy="19" r="3" fill="#6DE9C5"/><path d="M21 39L32 49L21 59M40 59H62" fill="none" stroke="#A8FCE0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <text x="109" y="26" class="dim">02 / BUILD</text><text x="109" y="54" class="main">Engineering</text><text x="109" y="77" class="soft">APIs + Full-stack</text>
+</g>
+<g transform="translate(634 33)">
+ <g class="drift" style="animation-delay:-2s"><path d="M21 66C6 66 3 44 19 38C19 20 46 13 56 28C74 20 91 39 82 54C94 70 79 76 69 76H26" class="wire"/><path d="M47 63V40M37 50L47 40L57 50" stroke="#F6A36A" fill="none" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+ <text x="109" y="26" class="dim">03 / SHIP</text><text x="109" y="54" class="main">Cloud + DevOps</text><text x="109" y="77" class="soft">Delivery + CI/CD</text>
+</g>
+<g transform="translate(932 33)">
+ <g class="drift" style="animation-delay:-1.6s"><rect x="6" y="12" width="82" height="63" rx="8" fill="#112E3E" stroke="#6DE9C5" stroke-width="2"/><path d="M6 26H88" stroke="#3B6475" stroke-width="1.5"/><circle cx="19" cy="19" r="2.5" fill="#F49B63"/><path d="M23 62C35 33 51 42 65 33" class="wire"/><circle cx="23" cy="62" r="4" fill="#F49B63"/><circle cx="65" cy="33" r="4" fill="#F49B63"/></g>
+ <text x="105" y="26" class="dim">04 / CRAFT</text><text x="105" y="54" class="main">Experience</text><text x="105" y="77" class="soft">Web + Identity</text>
+</g>
+<path d="M300 130H300M600 130H600M899 130H899" class="flow" stroke="#F6A36A" opacity=".6"/>
+</svg>

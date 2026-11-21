@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-labelledby="title desc">
+<title id="title">Jad El Wahy — intelligent systems, thoughtful experiences</title>
+<desc id="desc">An original navy, mint and orange hero graphic combining expressive typography and a geometric signal network.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111F"/><stop offset=".58" stop-color="#11243A"/><stop offset="1" stop-color="#0B1A2B"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5CF0C3"/><stop offset="1" stop-color="#F7A16B"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#1D806F" stop-opacity=".45"/><stop offset="1" stop-color="#1D806F" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#2F4760" stroke-opacity=".25" stroke-width="1"/></pattern>
+  <clipPath id="round"><rect width="1200" height="360" rx="22"/></clipPath>
+<style>
+   .pulse{animation:pulse 3s ease-in-out infinite}
+   .orbit-dash{animation:dash 16s linear infinite}
+   .glow-wave{animation:wave 7s ease-in-out infinite}
+   .sparkle{animation:twinkle 2.8s ease-in-out infinite}
+   @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
+   @keyframes twinkle{0%,100%{opacity:.45}50%{opacity:1}}
+   @keyframes dash{to{stroke-dashoffset:-180}}
+   @keyframes wave{0%,100%{opacity:.25}50%{opacity:.7}}
+   @media(prefers-reduced-motion:reduce){.pulse,.orbit-dash,.glow-wave,.sparkle{animation:none}}
+ </style>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)" opacity=".57"/>
+  <ellipse class="glow-wave" cx="983" cy="165" rx="260" ry="210" fill="url(#aura)"/>
+  <path d="M60 52H305" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="320" cy="52" r="4" fill="#F7A16B"/>
+  <text x="60" y="82" font-size="15" letter-spacing="4" font-family="Arial,Helvetica,sans-serif" font-weight="700" fill="#74E8CC">ENGINEERING × DESIGN</text>
+  <text x="55" y="172" font-size="76" letter-spacing="-2" font-family="Arial,Helvetica,sans-serif" font-weight="800" fill="#F8FCFF">JAD EL WAHY</text>
+  <text x="60" y="222" font-size="25" font-family="Arial,Helvetica,sans-serif" fill="#C0CEDC">Building systems that think.</text>
+  <text x="60" y="253" font-size="25" font-family="Arial,Helvetica,sans-serif" fill="#C0CEDC">Designing experiences that feel right.</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1">
+    <rect x="60" y="292" width="177" height="34" rx="17" fill="#153B3A" stroke="#397C70"/>
+    <text x="79" y="313" fill="#A5F9DB">LLM + AGENTS</text>
+    <rect x="248" y="292" width="173" height="34" rx="17" fill="#1B3347" stroke="#405971"/>
+    <text x="266" y="313" fill="#D0DCE9">CLOUD + DEVOPS</text>
+    <rect x="432" y="292" width="171" height="34" rx="17" fill="#382F35" stroke="#74554A"/>
+    <text x="450" y="313" fill="#FFD8BD">DIGITAL CRAFT</text>
+  </g>
+  <g transform="translate(997 175)">
+    <circle r="133" fill="none" stroke="#38665F" stroke-width="1" opacity=".5"/>
+    <circle r="108" fill="none" stroke="#4A9E89" stroke-opacity=".42" class="orbit-dash" stroke-dasharray="3 10" stroke-width="2"/>
+    <circle r="78" fill="none" stroke="#5FE9BC" stroke-opacity=".65" stroke-width="2"/>
+    <circle r="52" fill="#12392F" stroke="#7DF5D3" stroke-opacity=".6" stroke-width="1.5"/>
+    <path d="M-81 0H-42M42 0H82M0-81V-42M0 42V81M-55-55L-35-35M55 55L35 35" stroke="#6CEAC5" stroke-width="1.5" opacity=".7"/>
+    <text x="0" y="13" text-anchor="middle" font-family="monospace" font-size="42" font-weight="700" fill="#C6FFE7">J/</text>
+    <circle class="sparkle" cx="-108" cy="-65" r="6" fill="#F5A56E"/>
+    <circle class="pulse" cx="113" cy="-50" r="4" fill="#6EEDD0"/>
+    <circle class="sparkle" cx="96" cy="91" r="5" fill="#F5A56E"/>
+    <circle class="pulse" cx="-93" cy="92" r="4" fill="#6EEDD0"/>
+    <path d="M-108-65L-70-34M113-50L78-25M96 91L47 61M-93 92L-48 62" stroke="#71CDAF" stroke-opacity=".65" stroke-width="2"/>
+  </g>
+</g>
+</svg>

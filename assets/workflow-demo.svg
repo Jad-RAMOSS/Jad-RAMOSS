@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 264" width="1200" height="264" role="img" aria-labelledby="title desc">
+<title id="title">Conceptual example of a responsible intelligent workflow</title>
+<desc id="desc">An abstract, safe workflow showing how input moves through understanding, orchestrated actions, and a final human-aware outcome. It does not represent any actual private infrastructure.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1728"/><stop offset="1" stop-color="#122D3B"/></linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#59E1BC"/><stop offset="1" stop-color="#F0A068"/></linearGradient>
+  <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur in="SourceGraphic" stdDeviation="4"/></filter>
+  <style>
+   .hdr{fill:#7BCFBA;font-family:Arial,Helvetica,sans-serif;font-size:12;font-weight:700;letter-spacing:3px}
+   .label{fill:#F1FAFF;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:22}
+   .sub{fill:#9EB6C4;font-family:Arial,Helvetica,sans-serif;font-size:14}
+   .step{fill:#F19D67;font-family:monospace;font-size:14;font-weight:700}
+   .card{fill:#142D3B;stroke:#34566A;stroke-width:1.5}
+   .stream{stroke:#5FDCB5;stroke-width:2.5;stroke-dasharray:8 11;animation:move 4s linear infinite}
+   @keyframes move {to{stroke-dashoffset:-76}}
+   @media(prefers-reduced-motion:reduce){.stream{animation:none}}
+  </style>
+</defs>
+<rect x="0" y="0" width="1200" height="264" rx="18" fill="url(#bg)"/>
+<text x="34" y="36" class="hdr">EXAMPLE / HOW I THINK ABOUT RESPONSIBLE AUTOMATION</text>
+<rect class="card" x="32" y="67" width="252" height="139" rx="14"/>
+<rect class="card" x="326" y="67" width="252" height="139" rx="14"/>
+<rect class="card" x="620" y="67" width="252" height="139" rx="14"/>
+<rect class="card" x="914" y="67" width="254" height="139" rx="14"/>
+<path d="M284 136H326M578 136H620M872 136H914" class="stream" fill="none"/>
+<path d="M284 136H326M578 136H620M872 136H914" stroke="#6CD9B8" opacity=".18" stroke-width="8" filter="url(#soft)"/>
+<g>
+ <text x="55" y="105" class="step">01 / RECEIVE</text><text x="55" y="146" class="label">Input</text><text x="55" y="176" class="sub">Message · file · event</text>
+ <text x="349" y="105" class="step">02 / UNDERSTAND</text><text x="349" y="146" class="label">Intelligence</text><text x="349" y="176" class="sub">LLM · context · rules</text>
+ <text x="643" y="105" class="step">03 / ORCHESTRATE</text><text x="643" y="146" class="label">Workflow</text><text x="643" y="176" class="sub">Tools · APIs · validation</text>
+ <text x="937" y="105" class="step">04 / DELIVER</text><text x="937" y="146" class="label">Outcome</text><text x="937" y="176" class="sub">Result · review · handoff</text>
+</g>
+<circle r="6" fill="#F8AD72"><animateMotion dur="7s" repeatCount="indefinite" path="M 284 136 H 914"/></circle>
+<text x="34" y="239" font-size="13" fill="#91AABB" font-family="Arial,Helvetica,sans-serif">Illustrative pattern only  ·  No real systems, data, private tools, or architecture shown</text>
+<circle cx="1142" cy="229" r="5" fill="#64E8C0"/>
+</svg>
